@@ -1,13 +1,14 @@
 Package: discnetR
-Title: What the Package Does (One Line, Title Case)
+Title: Discourse-Internal Network Statistics
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Leah",
+           family = "Nodar",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
+           email = "leahmnodar@gmail.com",
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: What license it uses
+Description: Discourse-internal network analysis (DINA) involves organizing data from natural language conversation as relational ties between speakers and their evaluated subjects. This package includes functions that adapt traditional social network analysis measures to DINA and functions for new measures specific to DINA.
+License: GPL-3
 Encoding: UTF-8
 LazyData: true
+RoxygenNote: 6.1.1
